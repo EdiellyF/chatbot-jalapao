@@ -5,7 +5,10 @@ import org.jalapaochatbot.jalapaochatbot.models.FaqAnswer;
 import org.springframework.stereotype.Service;
 
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 @Service
 public class FaqService {
@@ -14,11 +17,11 @@ public class FaqService {
 
     public String getAnswer(String message){
 
-        List<String> words = List.of(message.toLowerCase().split("\\s+"));
+        List<String> words = new ArrayList<>(Arrays.asList(message.toLowerCase().split("\\s+")));
 
-            for (FaqAnswer entry: faqAnswers.getAnswers()){
+        for (FaqAnswer entry: faqAnswers.getAnswers()){
                 for (String keyword : entry.getKeywords()){
-                    if (words.contains(keyword)){
+                    if (words.contains(keyword.toLowerCase())){
                              return  entry.getAnswer();
                     }
                 }
