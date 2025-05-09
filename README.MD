@@ -1,7 +1,9 @@
 # 🌿 ChatJalapão
 
-**Conecte-se com a magia do Jalapão!**  
-Descubra curiosidades e explore a natureza com o ChatJalapão.
+
+**Conecte-se com a magia do Jalapão através de um chatbot interativo!**  
+Descubra curiosidades, tire dúvidas e explore a natureza com o **ChatJalapão**, seu assistente virtual sobre um dos destinos mais incríveis do Brasil.
+
 
 ---
 
@@ -14,8 +16,10 @@ Descubra curiosidades e explore a natureza com o ChatJalapão.
 ---
 
 ## 📁 Estrutura do Projeto
+```
 ChatJalapão/
-├── frontend/ # Aplicação React
+├── frontend/ # Aplicação React (chat)
+└── backend/
 └── src/
 └── main/
 ├── java/
@@ -28,8 +32,8 @@ ChatJalapão/
 │ ├── services/ # Regras de negócio (FaqService)
 │ └── JalapaochatbotApplication.java # Classe principal
 └── resources/
-└── static/ 
-
+└── static/
+```
 
 
 ---
@@ -48,15 +52,18 @@ ChatJalapão/
 ### 🔹 Frontend
 
 ```bash
-cd frontend
+cd frontend/view
 npm install
 npm run dev
 ```
 
 #backend
 ```bash
-cd backend
 ./mvnw spring-boot:run
 ```
 
 O backend escutará por padrão na porta 9090.
+
+
+![Logo do ChatJalapão](./Captura%20de%20tela%202025-05-09%20135559.png)
+![Logo do ChatJalapão](./image%20copy.png)
