@@ -66,4 +66,3 @@ O backend escutará por padrão na porta 9090.
 
 
 ![Logo do ChatJalapão](./Captura%20de%20tela%202025-05-09%20135559.png)
-![Logo do ChatJalapão](./image%20copy.png)
