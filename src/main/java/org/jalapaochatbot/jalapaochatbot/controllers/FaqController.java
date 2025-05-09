@@ -17,7 +17,7 @@ public class FaqController {
         this.faqService = faqService;
     }
 
-
+    @CrossOrigin(origins = "http://localhost:5173")
     @PostMapping
     public ResponseEntity<MessageResponse> answerQuestion(@RequestBody MessageRequest request){
 
