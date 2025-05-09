@@ -32,6 +32,10 @@ export const Home: React.FC = () => {
         </Typography>
         <Button
           variant="contained"
+          component="a"
+          href="/chat"
+
+ 
           sx={{
             backgroundColor: '#4CAF50',
             mt: 4,
