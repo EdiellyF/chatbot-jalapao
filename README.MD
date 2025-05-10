@@ -174,5 +174,5 @@ Para dúvidas, sugestões ou reportar problemas, entre em contato através do em
 
 ![Logo do ChatJalapão](./Captura%20de%20tela%202025-05-09%20135559.png)
 
-![Logo](./Imagem do WhatsApp de 2025-05-10 à(s) 18.17.39_54ccc065.jpg)
+![Logo](./Imagem%20do%20WhatsApp%20de%202025-05-10%20à(s)%2018.17.39_54ccc065.jpg)
 
