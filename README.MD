@@ -173,4 +173,6 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 Para dúvidas, sugestões ou reportar problemas, entre em contato através do email: [edielly.ferreiraf@gmail.com](mailto:edielly.ferreiraf@gmail.com)
 
 ![Logo do ChatJalapão](./Captura%20de%20tela%202025-05-09%20135559.png)
+
 ![Logo do ChatJalapão](./Imagem%20do%20WhatsApp%20de%202025-05-10%20à(s)%2018.17.39_54ccc065.jpg)
+
