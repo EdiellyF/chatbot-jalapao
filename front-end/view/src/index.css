@@ -1,10 +1,6 @@
-
-
-
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
+  padding: 0;
+  background-color: #ffffff; /* Altere para a cor desejada */
+  overflow: hidden; /* Evita barras de rolagem desnecessárias */
 }
-
-
