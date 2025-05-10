@@ -1,5 +1,6 @@
 package org.jalapaochatbot.jalapaochatbot.controllers;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
 import org.jalapaochatbot.jalapaochatbot.dto.MessageRequest;
 import org.jalapaochatbot.jalapaochatbot.dto.MessageResponse;
 
@@ -19,7 +20,7 @@ public class FaqController {
 
     @CrossOrigin(origins = "http://localhost:5173")
     @PostMapping
-    public ResponseEntity<MessageResponse> answerQuestion(@RequestBody MessageRequest request){
+    public ResponseEntity<MessageResponse> answerQuestion(@RequestBody MessageRequest request) throws JsonProcessingException {
 
         String answer = this.faqService.getAnswer(request.message());
         MessageResponse messageResponse = new MessageResponse(answer);
