@@ -176,3 +176,4 @@ Para dúvidas, sugestões ou reportar problemas, entre em contato através do em
 
 ![Logo do ChatJalapão](./tela-chat.jpg)
 
+
